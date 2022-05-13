@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Geneva, Verdana, sans-serif;
+  background-color: #252732;
+}
+
+.bg-img {
+  background-image: url(../images/banner.jpg);
+  opacity: 0.7;
+  height: 80vh;
+  text-align: center;
+}
+.bg-img nav {
+  color: #FFFFF5;
+  text-transform: uppercase;
+  font-family: Geneva, Verdana, sans-serif;
+  margin-bottom: 4rem;
+}
+.bg-img nav .logo {
+  line-height: 5vh;
+}
+.bg-img nav .logo .sp-1 {
+  font-weight: 900;
+}
+.bg-img nav li {
+  line-height: 5vh;
+  color: #AAAAAA;
+}
+.bg-img .page1 {
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+.bg-img .page1 h1 {
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+.bg-img .page1 p {
+  color: #AAAAAA;
+  font-size: 1rem;
+  line-height: 3rem;
+}
+.bg-img .page1 #btn1 {
+  padding: 3vh 6vw;
+  background-color: #F32853;
+  border: none;
+  text-transform: uppercase;
+  font-size: 2.5vh;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec1 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.sec1 .container {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+}
+.sec1 .container .s1-titre {
+  line-height: 1.6rem;
+  margin-bottom: 2vh;
+}
+.sec1 .container .s1-titre #ha1 {
+  font-size: 3vh;
+  color: #484848;
+}
+.sec1 .container .s1-titre #ha2 {
+  font-size: 2vh;
+  color: #AAAAAA;
+}
+.sec1 .container .s1-para {
+  line-height: 1.6rem;
+}
+.sec1 .container .s1-para p {
+  margin-bottom: 2vh;
+}
+
+.sec2 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  background-color: #F6F6F6;
+}
+.sec2 .page2 {
+  margin-bottom: 2vh;
+  line-height: 1.35;
+}
+.sec2 .page2 #ha3 {
+  font-size: 3vh;
+  color: #484848;
+}
+.sec2 .container2 {
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: space-evenly;
+  display: flex;
+  gap: 2rem;
+}
+.sec2 .container2 .card {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px -3px 5px #a6a6a6;
+}
+.sec2 .container2 .card #img1 {
+  width: 100%;
+}
+.sec2 .container2 .card h3 {
+  background-color: #FFFFFF;
+  width: 100%;
+  color: #484848;
+  font-weight: 700;
+  padding: 1rem;
+}
+.sec2 .container2 .card #img2 {
+  width: 100%;
+}
+.sec2 button {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: #F32853;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.sec3 {
+  background-color: white;
+  overflow: hidden;
+}
+.sec3 .titre {
+  text-align: left;
+  line-height: 2 rem;
+}
+.sec3 .titre h1 {
+  color: #4b5364;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.sec3 .titre h3 {
+  color: #515151;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.sec3 .container3 {
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 2em;
+  flex-wrap: wrap;
+}
+.sec3 .container3 .cards1 {
+  width: 80%;
+  margin: 3vh auto;
+}
+.sec3 .container3 .cards1 img {
+  border-radius: 50%;
+  border: 0.4em solid lightgray;
+  width: 40;
+}
+
+.sec4 {
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  height: 45vh;
+  text-align: center;
+  line-height: 3rem;
+  padding: 30vh 0;
+  color: #ffffff;
+}
+.sec4 h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.sec4 h5 {
+  font-size: 0.8rem;
+  font-weight: 0;
+}
+.sec4 button {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: #F32853;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #F6F6F6;
+  text-align: center;
+  height: 30vh;
+  padding-top: 10px;
+}
+footer .ftr1 {
+  color: #AAAAAA;
+  font-size: 3em;
+}
+footer .ftr2 {
+  color: #AAAAAA;
+  font-size: 1em;
+  padding-top: 30px;
+}
+footer .ftr2 p {
+  line-height: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
