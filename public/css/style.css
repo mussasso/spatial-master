@@ -151,7 +151,7 @@ body {
   overflow: hidden;
 }
 .sec3 .titre {
-  text-align: left;
+  text-align: center;
   line-height: 2 rem;
 }
 .sec3 .titre h1 {
@@ -187,7 +187,7 @@ body {
 .sec4 {
   background-image: url(../images/banner.jpg);
   background-position: center;
-  height: 45vh;
+  height: auto;
   text-align: center;
   line-height: 3rem;
   padding: 30vh 0;

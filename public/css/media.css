@@ -61,7 +61,12 @@
     line-height: 13px;
     margin: 0 3px;
   }
-
+.sec4{
+  height: auto;
+}
+.titre{
+  text-align: center;
+}
   footer .ftr2 {
     display: flex;
     justify-content: space-around;
